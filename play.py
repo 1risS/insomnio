@@ -27,7 +27,9 @@ def play_thoughts():
     for t in thoughts:
         type(t['datetime'])
         time.sleep(1)
-        type(t['text'])
+        type(t['post'])
 
 play_posts()
 play_thoughts()
+
+# print(len(posts))
